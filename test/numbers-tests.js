@@ -546,7 +546,7 @@ describe('core-js-numbers', () => {
     }
   );
 
-  it.optional(
+ it.optional(
     'getHypotenuse returns the length of the hypotenuse of a right triangle',
     () => {
       assert.equal(tasks.getHypotenuse(3, 4), 5);
